@@ -8,4 +8,4 @@ attr_accessor :s1, :s2, :s3, :kind
     @s3 = s3
   end
   
-  
+  def kind 
