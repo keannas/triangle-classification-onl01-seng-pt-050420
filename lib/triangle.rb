@@ -14,5 +14,6 @@ attr_accessor :s1, :s2, :s3, :kind
         raise TriangleError
           puts error.message
           end
+end
         
   
