@@ -9,7 +9,7 @@ attr_accessor :s1, :s2, :s3, :kind
   end
   
   def kind 
-    if (s1 * s2 * s3) == 0 || (s1 + s2) = <=s3 || (s2 + s3) <= s1 || (s3 + s1)
+    if (s1 * s2 * s3) == 0 || (s1 + s2) <=s3 || (s2 + s3) <= s1 || (s3 + s1)
       begin
         raise TriangleError
           puts error.message
